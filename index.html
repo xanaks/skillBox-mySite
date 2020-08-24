@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Наталья Клеймёнова — официальный сайт</title>
+    <style type="text/css">
+ 
+      .first-section {
+        display: flex;
+        flex-direction: column;
+        padding: 0 100px;
+        background-image: url("img/photo.png");
+        background-repeat: no-repeat;
+        background-position: bottom -50px right -110px;
+      }
+
+     
+      .button-more {
+        border: 1px solid #fc557c;
+        padding: 16px 40px;
+        color: #fbfbfb;
+        background-color: #ff0000;
+        cursor: pointer;
+      }
+
+   
+	* {
+		font-family: Arial;
+    box-sizing:content-box;
+	}
+
+	header {
+		background-color: #fbfbfb;
+	}
+
+	.fixed-container {
+		width: 1000px;
+		margin: 0 auto;
+	}
+
+	
+
+	.menu-container {
+		display: flex;
+		justify-content: space-between;
+		height: 60px;
+		align-items: center;
+	}
+
+	nav {
+		display: flex;
+	}
+
+	nav a {
+		color: #1f1f24;
+		text-decoration: none;
+		margin-right: 40px;
+	}
+
+	nav a:hover {
+		color: #fc557c;
+		text-decoration: underline;
+	}
+
+	.phone-container {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	.phone {
+		font-size: 20px;
+		font-weight: bold;
+		margin-right: 30px;
+	}
+	.order-call {
+		border: 1px solid #fc557c;
+		padding: 16px 40px;
+		color: #fc557c;
+		background-color: white;
+		cursor: pointer;
+	}
+
+	.title-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		height: 650px;
+	}
+
+	h1 {
+		font-size: 60px;
+		margin: 0 0 15px;
+	}
+
+	h3 {
+		color: #8993ad;
+		font-size: 24px;
+		font-weight: normal;
+  }
+
+  .features-block {
+    
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.features-item {
+  flex-basis: 25%;
+  
+
+}
+.features-image {
+  display: block;
+  margin:auto;
+  margin-bottom: 25px;
+}
+.features-text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0;
+   margin: 0;
+  color: rgb(139, 138, 138);
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+  .section-title {
+ 
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 28px;
+   text-align: center;
+  margin-top: 111px;
+  margin-bottom: 93px;}
+
+  .button-price{
+       /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    border: 1px solid #fc557c;
+    padding: 16px 40px;
+    color: #fbfbfb;
+    background-color: #ff0000;
+    cursor: pointer;
+    /* flex-basis: auto; */
+    width: 14%;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+  }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="fixed-container first-section">
+        <div class="menu-container">
+          <nav>
+            <a href="#">Услуги</a>
+            <a href="#">Портфолио</a>
+            <a href="#">Цены</a>
+          </nav>
+          <div class="phone-container">
+            <span class="phone">+7 (495) 555-55-55</span>
+            <button class="order-call">Заказать звонок</button>
+          </div>
+        </div>
+        <div class="title-container">
+          <h1>Дмитрий Алексеев</h1>
+          <h3>Frontend-разработчик и веб-верстальщик</h3>
+          <button class="button-more">Узнать больше</button>
+        </div>
+      </div>
+    </header>
+    <section class="features">
+      <div class="fixed-container feature-container">
+          <h2 class="section-title">
+          Что я делаю
+        </h2>
+        <div class="features-block">
+          <div class="features-item ">
+            <img src="img/icons/tools-and-utensils.png" alt="По договору" class="features-image" />
+                        <p class="features-text">
+              Верстка лендинг-страниц и сайтов любой сложности
+            </p>
+          </div>
+          <div class="features-item ">
+            <img src="img/icons/responsive.png" alt="Точно в срок" class="features-image" />
+            
+            <p class="features-text">
+              Адаптивная верстка под все  браузеры и устройства
+            </p>
+          </div>
+          <div class="features-item ">
+            <img src="img/icons/programming.png" alt="Ценник под вас" class="features-image wow slideInRight" />
+           
+            <p class="features-text">
+              Frontend-разработка и программирование
+            </p>
+          </div>
+          <div class="features-item ">
+            <img src="img/icons/coding.png" alt="Ценник под вас" class="features-image wow slideInRight" />
+                        <p class="features-text">
+              Исправление и доработка существующей верстки
+            </p>
+            
+          </div>
+        <div class="button-price">Узнать стоимость</div>
+        </div>
+        
+    </section>
+  </body>
+</html>
